@@ -1,0 +1,55 @@
+.about {
+    display: grid;
+    gap: 30px;
+}
+
+.about h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.about h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about .history {
+    display: grid;
+    gap: 20px;
+}
+
+.about .history p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.why h4 {
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.why .q {
+    display: grid;
+    gap: 20px;
+}
+
+.why .q .p {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.why .q .p span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.why .q .p p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+}

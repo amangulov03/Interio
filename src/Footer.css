@@ -1,0 +1,171 @@
+footer {
+    color: #fff;
+    background: #2d2d2d;
+    padding: 60px 0;
+    margin-top: 100px;
+}
+.main_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot_1 {
+    display: grid;
+    gap: 20px;
+}
+
+.foot_1 h1 {
+    font-family: "Protest Strike", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.foot_1 .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.fa_icons {
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.fa_icons:hover {
+    color: red;
+}
+.foot_1 .currency {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.foot_1 .currency .curr {
+    font-size: 24px;
+}
+
+.foot_1 .currency .heits {
+    width: 2px;
+    height: 15px;
+    background: #fff;
+}
+
+.foot_2 {
+    display: grid;
+    gap: 20px;
+}
+
+.main_footer h4 {
+    font-size: 20px;
+}
+
+.foot_2 .foot_nav {
+    display: grid;
+}
+
+.foot_2 .foot_nav ul {
+    list-style-type: none;
+}
+
+.foot_nav ul li .Link_footer {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    transition: 0.4s ease-in-out;
+}
+
+.foot_nav ul li .Link_footer:hover {
+    color: red;
+}
+
+.footer_3 {
+    display: grid;
+    gap: 20px;
+}
+
+.footer_3 .nav_prof {
+    display: grid;
+    gap: 3px;
+}
+
+.footer_3 .nav_prof .Link_prof {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    transition: 0.4s ease-in-out;
+}
+
+.footer_3 .nav_prof .Link_prof:hover {
+    color: red;
+}
+
+.foot_4 {
+    display: grid;
+    gap: 20px;
+}
+
+.foot_4 .location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot_4 .location .loc {
+    font-size: 24px;
+}
+
+.foot_4 .location p {
+    font-size: 14px;
+    font-weight: 100;
+    transition: 0.4s ease-in-out;
+}
+
+.foot_4 .phon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot_4 .phon .fa_phon {
+    font-size: 24px;
+}
+
+.foot_4 .phon p {
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.4s ease-in-out;
+}
+
+.foot_4 .email_com {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot_4 .email_com .md_email {
+    font-size: 24px;
+}
+
+.foot_4 .email_com p {
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.4s ease-in-out;
+}
+
+.foot_4 p {
+    font-size: 14px;
+    font-weight: 100;
+}
